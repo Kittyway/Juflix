@@ -1,0 +1,66 @@
+body {
+    color: black;
+    background: black;
+    margin: 0px;
+}
+
+header {
+    border: solid 6px rgba(255, 0, 0, 0.747);
+    padding: 10px;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+}
+
+.comeco {
+    background: red;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.titulo {
+    margin-right: 15%;
+    font-family: "DM Serif Text", serif;
+    color: aliceblue;
+    font-size: 45px;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+}
+
+.youtube {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.you {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.youtube img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.youtube img:hover {
+    opacity: 1.0;
+    border: 2px solid rgb(151, 29, 29);
+}
+
+.you h2 {
+    color: rgb(204, 63, 86);
+    margin-bottom: 60px;
+    text-align: center;
+}
